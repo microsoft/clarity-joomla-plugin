@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="system" method="upgrade">
+	<name>Clarity</name>
+	<author>Mahitab Emam</author>
+	<creationDate>July 2021</creationDate>
+    <copyright>Copyright (c) 2020 PB Web Development. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ClarityMS@microsoft.com</authorEmail>
+	<authorUrl>www.clarity.microsoft.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CLARITY_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="clarity">clarity.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">./language/en-GB/en-GB.plg_system_clarity.ini</language>
+		<language tag="en-GB">./language/en-GB/en-GB.plg_system_clarity.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="project_id" type="text"
+					description="PLG_CLARITY_PROJECT_ID_DESC"
+					label="PLG_CLARITY_PROJECT_ID_LABEL">
+				</field>
+				<field name="trackadmin" type="radio" default="off"
+					description="PLG_CLARITY_TRACK_ADMIN_DESC"
+					label="PLG_CLARITY_TRACK_ADMIN_LABEL">
+					<option value="on">Track</option>
+					<option value="off">Do not track</option>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1"
+			name="Clarity Updates">https://clarity.microsoft.com/joomla-update.xml</server>
+	</updateservers>
+</extension>
