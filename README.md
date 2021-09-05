@@ -1,14 +1,64 @@
-# Project
+# Welcome
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Clarity Joomla Plugin helps in integarting clarity into your Joomla website easily and seamlessly.
 
-As the maintainer of this project, please make a few updates:
+# Clarity
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Clarity is an open-source behavioral analytics library written in typescript, with two key goals: privacy & performance.
+
+It helps you understand how users view and use your website across all modern devices and browsers. Understanding how users navigate, interact and browse your website can provide new insights about your users. Empathizing with your users and seeing where features fail or succeed can help improve your product, grow revenue and improve user retention.
+
+It's the same code that powers Microsoft's hosted behavioral analytics solution: <a href="https://clarity.microsoft.com">https://clarity.microsoft.com</a>. If you would like to see a demo of how it works, checkout <a href="https://clarity.microsoft.com/demo/projects/view/3t0wlogvdz/impressions?date=Last%203%20days">live demo</a>.
+
+
+# Usage
+
+### Step 1
+Log into the Joomla Administration control panel. Instructions can be found [here](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "here").
+
+
+### Step 2
+From the top nav bar open **Extensions** > **Manage** > **Install**.
+
+![1](/static/joomla_step2.png)
+
+### Step 3
+Select **Install from URL** tab.
+
+![2](/static/joomla_step3.png)
+
+### Step 4
+Paste the following URL https://github.com/microsoft/joomla-plugin-clarity/raw/main/joomla-plugin-clarity.zip in the text field, then select check and install.
+
+![3](/static/joomla_step4.png)
+
+### Step 5
+Open **Extensions** > **Plugins**
+
+![4](/static/joomla_step5.png)
+
+### Step 6
+Search for Clarity and open it.
+
+![5](/static/joomla_step6.png)
+
+### Step 7
+
+Locate your Clarity ID and copy it.
+
+1. From the Clarity dashboard, go to **Settings**.
+2. At the top, select **Setup**.
+3. Under How to install Clarity?, select **Install Clarity on third-party platforms**.
+4. Select **Joomla**. Your Clarity ID is at the top of the page (for example, 555u86t011).
+
+![6](/static/joomla_step7.png)
+
+### Step 8
+Paste your Clarity Project ID, then change status to Enabled and select Save.
+
+![7](/static/joomla_step8.png)
+
+The Clarity tracking is code now installed.
 
 ## Contributing
 

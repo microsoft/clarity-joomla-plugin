@@ -2,7 +2,7 @@
 
 /**
  *
- * @version		0.0.1
+ * @version		1.0.0
  * @copyright	Copyright (C) 2020 PB Web Development. All rights reserved.
  * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  */
