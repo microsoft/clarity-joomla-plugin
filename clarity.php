@@ -31,14 +31,14 @@ class plgSystemClarity extends JPlugin {
 		// Check to see if we are in the admin and if we should track
 		$trackadmin = $this->params->get('trackadmin','');
 		$mainframe = JFactory::getApplication();
-		if($mainframe->isAdmin() && ($trackadmin != 'on')) {
+		if($mainframe->isClient('administrator') && ($trackadmin != 'on')) {
 			return;
 		}
 
 		
 		// Get the Body of the HTML - have to do this twice to get the HTML
-		$buffer = JResponse::getBody();
-		$buffer = JResponse::getBody();
+		$buffer =     JFactory::getApplication()->getBody();
+		$buffer =     JFactory::getApplication()->getBody();
 		// Get our Container ID and Track Admin parameter
 		$project_id = $this->params->get('project_id','');
 
@@ -53,7 +53,8 @@ class plgSystemClarity extends JPlugin {
 
 		$buffer = preg_replace ("/(<head(?!er).*>)/i", "$1".$clarity_js_container_code, $buffer, 1);
 		
-		JResponse::setBody($buffer);
+   	    	JFactory::getApplication()->setBody($buffer);
+
 		
 		return true;
 		}
