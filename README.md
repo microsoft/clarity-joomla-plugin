@@ -54,7 +54,7 @@ Locate your Clarity ID and copy it.
 
 ### Step 7
 
-Paste your Clarity Project ID, then change status to Enabled and select Save.
+Paste your Clarity Project ID, then change status to Enabled, then Change Track administrator to Track and select Save.
 
 ![7](/static/joomla_step7.png)
 
