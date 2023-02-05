@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.4" type="plugin" group="system" method="upgrade">
 	<name>Clarity</name>
-	<author>Mahitab Emam</author>
+	<author>Microsoft Clarity</author>
 	<creationDate>July 2021</creationDate>
-    <copyright>Copyright (c) 2020 PB Web Development. All rights reserved.</copyright>
-    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>ClarityMS@microsoft.com</authorEmail>
 	<authorUrl>www.clarity.microsoft.com</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>PLG_CLARITY_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="clarity">clarity.php</filename>

@@ -2,9 +2,9 @@
 
 /**
  *
- * @version		1.0.0
- * @copyright	Copyright (C) 2020 PB Web Development. All rights reserved.
- * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @version		1.1.0
+ * @copyright	Copyright (c) Microsoft Corporation.
+ * @license		MIT License
  */
 
 // no direct access
@@ -37,8 +37,8 @@ class plgSystemClarity extends JPlugin {
 
 		
 		// Get the Body of the HTML - have to do this twice to get the HTML
-		$buffer =     JFactory::getApplication()->getBody();
-		$buffer =     JFactory::getApplication()->getBody();
+		$buffer = JFactory::getApplication()->getBody();
+		$buffer = JFactory::getApplication()->getBody();
 		// Get our Container ID and Track Admin parameter
 		$project_id = $this->params->get('project_id','');
 
@@ -53,7 +53,7 @@ class plgSystemClarity extends JPlugin {
 
 		$buffer = preg_replace ("/(<head(?!er).*>)/i", "$1".$clarity_js_container_code, $buffer, 1);
 		
-   	    	JFactory::getApplication()->setBody($buffer);
+        JFactory::getApplication()->setBody($buffer);
 
 		
 		return true;

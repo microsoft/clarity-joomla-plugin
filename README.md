@@ -10,39 +10,38 @@ It helps you understand how users view and use your website across all modern de
 
 It's the same code that powers Microsoft's hosted behavioral analytics solution: <a href="https://clarity.microsoft.com">https://clarity.microsoft.com</a>. If you would like to see a demo of how it works, checkout <a href="https://clarity.microsoft.com/demo/projects/view/3t0wlogvdz/impressions?date=Last%203%20days">live demo</a>.
 
-
 # Usage
 
 ### Step 1
-Log into the Joomla Administration control panel. Instructions can be found [here](https://docs.joomla.org/J3.x:Logging_in_or_out_of_the_Administrator_back-end "here").
 
+Log into the Joomla Administration control panel. Instructions can be found [here](https://docs.joomla.org/Administrator_(Application)).
 
 ### Step 2
-From the top nav bar open **Extensions** > **Manage** > **Install**.
+
+From the top nav bar open **System** > **Extensions** > **Install Extensions**.
 
 ![1](/static/joomla_step2.png)
 
 ### Step 3
+
 Select **Install from URL** tab.
+Paste the following URL https://github.com/microsoft/joomla-plugin-clarity/raw/main/joomla-plugin-clarity.zip in the text field, then select check and install.
 
 ![2](/static/joomla_step3.png)
 
 ### Step 4
-Paste the following URL https://github.com/microsoft/joomla-plugin-clarity/raw/main/joomla-plugin-clarity.zip in the text field, then select check and install.
 
-![3](/static/joomla_step4.png)
+Open **System** > **Plugins**
+
+![4](/static/joomla_step4.png)
 
 ### Step 5
-Open **Extensions** > **Plugins**
 
-![4](/static/joomla_step5.png)
-
-### Step 6
 Search for Clarity and open it.
 
-![5](/static/joomla_step6.png)
+![5](/static/joomla_step5.png)
 
-### Step 7
+### Step 6
 
 Locate your Clarity ID and copy it.
 
@@ -51,18 +50,19 @@ Locate your Clarity ID and copy it.
 3. Under How to install Clarity?, select **Install Clarity on third-party platforms**.
 4. Select **Joomla**. Your Clarity ID is at the top of the page (for example, 555u86t011).
 
-![6](/static/joomla_step7.png)
+![6](/static/joomla_step6.png)
 
-### Step 8
+### Step 7
+
 Paste your Clarity Project ID, then change status to Enabled and select Save.
 
-![7](/static/joomla_step8.png)
+![7](/static/joomla_step7.png)
 
 The Clarity tracking is code now installed.
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
@@ -76,8 +76,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
